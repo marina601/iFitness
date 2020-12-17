@@ -1,0 +1,53 @@
+
+
+/*-------Logo-----*/
+
+
+
+
+/*-------Navigation-----*/
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  float: right;
+  
+}
+
+header {
+    background-color: #072446;
+    height: 188px;
+    
+}
+
+
+
+.navbar-light .navbar-toggler {
+    background-color: #e1aa12;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.menu li {
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+  padding: 10px;
+  color: #fafafa;
+
+}
+
+.navbar-expand-lg .navbar-collapse{
+    background-color: #072446;
+    
+}
+
+.logo {
+   margin-top: -31px;
+}
+
+
+
