@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@300;400;500&display=swap');
+Sans-serif
 
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #072446;
+    height: 160px;
+    background-image: url(../assets/images/plank-hero.jpg);
+}
 
-/*-------Logo-----*/
 
 
 
@@ -8,34 +16,72 @@
 /*-------Navigation-----*/
 
 .navbar {
-  padding: 0;
-  margin: 0;
   float: right;
-  
 }
 
-header {
-    background-color: #072446;
-    height: 188px;
-    
+.navmenu {
+    margin-top: -80px;
+    padding: 0;
+    font-family: 'Montserrate', sans-serif;
+    font-weight: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+
 }
 
+
+
+
+
+/*-------Logo-----*/
+
+.logo h1 {
+   color: #fafafa;
+   text-align: left;
+   height: 80px;
+   background-color: #072446;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   display: block;
+   font-family: 'Monstserrat', sans-serif ;
+   font-weight: 600;
+}
+
+.logo a i {
+    color: #e1aa12;
+    margin-bottom: 20px;
+    line-height: 45px;
+    padding-top: 22px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.header-icon {
+    padding-left: 20px;
+}
 
 
 .navbar-light .navbar-toggler {
     background-color: #e1aa12;
+    border: none;
+    margin-top: -110px;
+    margin-right: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: #fafafa;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
 }
 
 
 .menu li {
   float: right;
   margin-right: 30px;
-  margin-top: 60px;
-  padding: 10px;
+  margin-top: 0px;
+  padding: 0px;
   color: #fafafa;
 
 }
@@ -43,10 +89,6 @@ header {
 .navbar-expand-lg .navbar-collapse{
     background-color: #072446;
     
-}
-
-.logo {
-   margin-top: -31px;
 }
 
 
