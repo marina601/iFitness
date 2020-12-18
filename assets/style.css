@@ -4,9 +4,8 @@ Sans-serif
 header {
     margin: 0;
     padding: 0;
-    background-color: #072446;
     height: 160px;
-    background-image: url(../assets/images/plank-hero.jpg);
+    
 }
 
 
@@ -34,6 +33,13 @@ header {
 
 
 /*-------Logo-----*/
+.logo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -30px;
+
+}
 
 .logo h1 {
    color: #fafafa;
@@ -91,5 +97,14 @@ header {
     
 }
 
+/*-------Logo-----*/
 
+/*.hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../assets/images/plank-hero.jpg);
+    background-repeat: no-repeat;
+    
+    
+}*/
 
