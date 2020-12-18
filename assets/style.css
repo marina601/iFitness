@@ -28,6 +28,9 @@ header {
 
 }
 
+.menu {
+    padding: 0;
+}
 
 
 
@@ -99,12 +102,4 @@ header {
 
 /*-------Logo-----*/
 
-/*.hero-image {
-    height: 600px;
-    width: 100%;
-    background-image: url(../assets/images/plank-hero.jpg);
-    background-repeat: no-repeat;
-    
-    
-}*/
 
