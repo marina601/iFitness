@@ -8,6 +8,12 @@ header {
     
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 
@@ -100,6 +106,40 @@ header {
     
 }
 
-/*-------Logo-----*/
+/*-------heading-----*/
 
+.uppercase {
+    text-align: center;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+}
 
+/*-----------about------*/
+
+.about {
+    background-color: #e1aa12;
+    width: 100%;
+    height: max-content;
+}
+
+.about p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*-----------services------*/
+
+.services h3 {
+    text-align: center;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.s-container {
+    background-color: rgba(0, 128, 137, 0.7);
+}
