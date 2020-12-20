@@ -205,3 +205,61 @@ h3 {
 .coach {
     background-color: #fafafa;
 }
+
+/*-----------Timetable------*/
+
+.table {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color:  rgba(0, 128, 137, 0.7);
+    border: solid 1em #072446;
+    border-radius: 5px;
+    
+}
+
+.table-title th {
+    text-align: center;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    border: solid 5px #072446;
+    
+}
+
+tbody {
+    border: solid 5px #072446;
+
+}
+
+.table-border th {
+    border: solid 5px #072446;
+}
+
+.table-border td {
+    border: solid 5px #072446;
+}
+
+
+.schedule {
+    margin: 25px;
+    border: 5px;
+    padding: 5px;
+}
+
+/*-----------SignUp------*/
+
+.members-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"] {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: #072446;
+   background-color: #e1aa12;
+   margin: 15px auto;
+   font-family: 'Monstserrat', sans-serif;
+   font-weight: 600;
+   
+}
