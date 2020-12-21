@@ -248,18 +248,113 @@ tbody {
 /*-----------SignUp------*/
 
 .members-form {
-    padding-top: 20px;
-    margin: 0 auto;
-    max-width: 50%;
+    padding: 20px 60px;
+    margin: 10px auto;
+    max-width: 70%;
+    background-color: #e1aa12;
+    border: solid 2px;
+    border-color: #072446;
+    border-radius: 5px;
 }
 
 button[type="submit"] {
    padding-top: 15px;
    padding-bottom: 15px;
-   color: #072446;
-   background-color: #e1aa12;
+   color: #fafafa;
+   background-color: #072446;
    margin: 15px auto;
    font-family: 'Monstserrat', sans-serif;
    font-weight: 600;
    
+   
+}
+
+input {
+    padding: 5px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+/*-----------Footer------*/
+
+footer {
+    background-color: #072446;
+    min-height: 120px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+
+.footer-heading {
+    color: #fafafa;
+}
+
+.social-link {
+    color: #fafafa;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 65px;
+    padding-left: 20px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-link:hover {
+    color: #e1aa12;
+}
+
+.contact-details {
+    color: #fafafa;
+    margin-bottom: 5px;
+    display: block;
+    clear: both;
+}
+
+.contact-details .key,
+.contact-details .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.contact-details .key p,
+.contact-details .value p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-details .key {
+    width: 30%;
+    align-items: left;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.contact-details .key p {
+    font-weight: 400;
+    font-family: 'Monstserral' sans-serif;
+    text-align: left;
+}
+
+.contact-details .value p {
+    position: relative;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+.footer-contact {
+    margin-left: 60px;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+
 }
