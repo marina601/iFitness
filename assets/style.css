@@ -170,7 +170,7 @@ h3 {
 }
 
 .services {
-  background-color: rgba(1, 58, 103, 0.6);
+  background-color:  rgba(161, 156, 140, 0.534);
 }
 
 
@@ -212,7 +212,7 @@ h3 {
 
 /*-----------Timetable------*/
 .timetable {
-  background-color: rgba(1, 58, 103, 0.6);
+  background-color: rgba(161, 156, 140, 0.534);
 }
 
 
@@ -260,7 +260,8 @@ tbody {
 /*-----------SignUp------*/
 
 .sign-up {
-   background-color: #010101;
+   background-color: rgba(161, 156, 140, 0.534);
+   padding-bottom: 20px;
 }
 
 .sign-up p {
