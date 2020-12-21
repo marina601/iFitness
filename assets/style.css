@@ -13,6 +13,7 @@ p {
     font-weight: 500;
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -90,6 +91,7 @@ h3 {
     border: none;
     margin-top: -110px;
     margin-right: 20px;
+    margin-bottom: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -122,6 +124,7 @@ h3 {
     font-weight: 600;
     padding: 20px;
     text-transform: uppercase;
+    color: #fafafa;
 }
 /*-----------Hero Image------*/
 
@@ -136,6 +139,7 @@ h3 {
     background-color: #e1aa12;
     width: 100%;
     height: max-content;
+    margin-bottom: 0;
 }
 
 .about p {
@@ -155,7 +159,7 @@ h3 {
 }
 
 .s-container {
-    background-color: rgba(0, 128, 137, 0.7);
+    background-color: #008089;
     width: 100%;
     height: 520px;
     padding: 20px;
@@ -166,7 +170,7 @@ h3 {
 }
 
 .services {
-    background-color: #fafafa;
+  background-color: rgba(1, 58, 103, 0.6);
 }
 
 
@@ -203,18 +207,26 @@ h3 {
 }
 
 .coach {
-    background-color: #fafafa;
+  background-color: #010101;
 }
 
 /*-----------Timetable------*/
+.timetable {
+  background-color: rgba(1, 58, 103, 0.6);
+}
+
 
 .table {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    background-color:  rgba(0, 128, 137, 0.7);
+    background-color: #008089;
     border: solid 1em #072446;
     border-radius: 5px;
     
+}
+
+.timetable p {
+    color: #fafafa;
 }
 
 .table-title th {
@@ -246,6 +258,14 @@ tbody {
 }
 
 /*-----------SignUp------*/
+
+.sign-up {
+   background-color: #010101;
+}
+
+.sign-up p {
+    color: #fafafa;
+}
 
 .members-form {
     padding: 20px 60px;
@@ -280,10 +300,11 @@ input {
 /*-----------Footer------*/
 
 footer {
+
     background-color: #072446;
     min-height: 120px;
     padding-top: 20px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 
@@ -294,17 +315,20 @@ footer {
 .social-link {
     color: #fafafa;
     font-size: 40px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    margin-right: 0px;
-    margin-left: 65px;
-    padding-left: 20px;
-    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    display: inline-block;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out; 
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+.social {
+    width: 100%;
+    text-align: center;
+}
+
 
 .social-link:hover {
     color: #e1aa12;
