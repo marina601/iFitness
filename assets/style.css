@@ -35,7 +35,9 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
+  margin: 0;
 }
+
 
 /*-------Navigation-----*/
 
@@ -88,6 +90,10 @@ h3 {
     font-size: 40px;
     align-items: center;
     text-decoration-line: none;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .header-icon {
@@ -155,7 +161,7 @@ h3 {
 
 .about {
     background-color: #e1aa12;
-    width: 100%;
+    max-width: 100%;
     height: max-content;
     margin-bottom: 0;
 }
@@ -180,7 +186,7 @@ h3 {
     background-color: #008089;
     width: 100%;
     height: 520px;
-    padding: 20px;
+    padding: 5px;
     margin: 15px;
     border: solid;
     border-color: #072446;
@@ -236,8 +242,16 @@ h3 {
     
 }
 
-.timetable p {
+#timetable p {
     color: #24292e;
+}
+
+#timetable {
+    width: 80%;
+    min-height: fit-content;
+    padding: 5px;
+    margin: 10px auto;
+
 }
 
 .table-title th {
@@ -392,4 +406,21 @@ footer {
     padding: 20px;
     text-transform: uppercase;
 
+}
+
+/*-----------Video------*/
+
+.video h3{
+    text-align: center;
+
+}
+
+.video {
+    width: 80%;
+    margin: 20px, auto;
+
+}
+
+.workout {
+    align-content: center;
 }

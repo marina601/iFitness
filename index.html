@@ -12,6 +12,7 @@
 <body>
 <header>
 <div class="container-fluid">
+  <div class="fixed-top">
    <div class="row">
     <div class="col-12 logo">
       <a href="#home">
@@ -38,6 +39,7 @@
       </nav> 
    </div>
   </div>
+ </div>
 </div>
 </header>
 <section>
@@ -155,7 +157,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 schedule" id="timetable">
+            <div class="col-12 schedule table-responsive" id="timetable">
                 <table class="table table-bordered">
                   <thead class="table-title">
                     <tr>
@@ -212,6 +214,16 @@
              </table>
             </div>
         </div>
+        <div class="row">
+           <div class="col-12">
+               <h3 class="uppercase">Try our complimentary Abs workout Now!</h3>
+           </div>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/O-NKhBarAcc?start=26" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <p>Sorry, your browser does not support this video.</p>
+            </iframe>
+        </div>
     </div>
 </section>
 <section class="sign-up">
@@ -222,7 +234,7 @@
               <p>Start your 7 days Free Trial Risk Free <span>(cancel anytime)</span></p>
            </div>
            <div class="col-12 members-form">
-               <form>
+               <form action="" method="POST">
                    <input type="text" name="fname" id="fname" class="form-control" placeholder="Name" required >
                    <input type="text" name="lname" id="lname" class="form-control" placeholder="Surname" required >
                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" required >
