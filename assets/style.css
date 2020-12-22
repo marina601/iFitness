@@ -23,9 +23,19 @@ h3 {
     padding: 20px;
 }
 
+/*-------Background-----*/
 
-
-
+.services,
+.coach,
+.timetable,
+.sign-up {
+   background: url(../assets/images/light-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
 
 /*-------Navigation-----*/
 
@@ -73,16 +83,19 @@ h3 {
 }
 
 .logo a i {
-    color: #e1aa12;
-    margin-bottom: 20px;
+    color: #fafafa;
     line-height: 45px;
-    padding-top: 22px;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 40px;
+    align-items: center;
+    text-decoration-line: none;
 }
 
 .header-icon {
     padding-left: 20px;
+}
+
+.header-icon:hover {
+    color: #e1aa12;
 }
 
 
@@ -99,8 +112,12 @@ h3 {
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 0.3rem;
+    padding-top: 10px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e1aa12;
+}
 
 .menu li {
   float: right;
@@ -124,12 +141,13 @@ h3 {
     font-weight: 600;
     padding: 20px;
     text-transform: uppercase;
-    color: #fafafa;
+    color: #24292e;
 }
 /*-----------Hero Image------*/
 
 .hero-image {
-   padding: 0; 
+   padding: 0;
+   
 }
 
 
@@ -169,9 +187,7 @@ h3 {
     border-radius: 5px;
 }
 
-.services {
-  background-color:  rgba(161, 156, 140, 0.534);
-}
+
 
 
 /*-----------Coaches------*/
@@ -206,14 +222,9 @@ h3 {
     display: inline-block;
 }
 
-.coach {
-  background-color: #010101;
-}
 
 /*-----------Timetable------*/
-.timetable {
-  background-color: rgba(161, 156, 140, 0.534);
-}
+
 
 
 .table {
@@ -226,7 +237,7 @@ h3 {
 }
 
 .timetable p {
-    color: #fafafa;
+    color: #24292e;
 }
 
 .table-title th {
@@ -260,12 +271,11 @@ tbody {
 /*-----------SignUp------*/
 
 .sign-up {
-   background-color: rgba(161, 156, 140, 0.534);
    padding-bottom: 20px;
 }
 
 .sign-up p {
-    color: #fafafa;
+    color: #24292e;
 }
 
 .members-form {
