@@ -185,14 +185,13 @@ h3 {
 .s-container {
     background-color: #008089;
     width: 100%;
-    height: 520px;
+    height: 550px;
     padding: 5px;
     margin: 15px;
     border: solid;
     border-color: #072446;
     border-radius: 5px;
 }
-
 
 
 
@@ -239,6 +238,7 @@ h3 {
     background-color: #008089;
     border: solid 1em #072446;
     border-radius: 5px;
+    margin: 20px;
     
 }
 
