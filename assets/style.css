@@ -41,47 +41,25 @@ h3 {
 
 /*-------Navigation-----*/
 
-.navbar {
-  float: right;
-}
+
 
 .navmenu {
-    margin-top: -80px;
-    padding: 0;
     font-family: 'Montserrate', sans-serif;
     font-weight: 20px;
-    margin-bottom: 30px;
-    margin-right: 20px;
-
 }
 
 .menu {
-    padding: 0;
-    margin: 0;
-    background-color: #013a67;
+    background-color: #072446;
 }
 
 
 
 
 /*-------Logo-----*/
-.logo {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-bottom: -10px;
 
-}
 
 .logo h1 {
    color: #fafafa;
-   text-align: left;
-   height: 80px;
-   background-color: #072446;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   padding-right: 20px;
-   display: block;
    font-family: 'Monstserrat', sans-serif ;
    font-weight: 600;
 }
@@ -90,7 +68,6 @@ h3 {
     color: #fafafa;
     line-height: 45px;
     font-size: 40px;
-    align-items: center;
     text-decoration-line: none;
 }
 
@@ -98,9 +75,7 @@ h3 {
     text-decoration: none;
 }
 
-.header-icon {
-    padding-left: 20px;
-}
+
 
 .header-icon:hover {
     color: #e1aa12;
@@ -109,18 +84,14 @@ h3 {
 
 .navbar-light .navbar-toggler {
     background-color: #e1aa12;
-    border: none;
-    margin-top: -110px;
-    margin-right: 20px;
-    margin-bottom: 0;
+  
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #fafafa;
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
-    letter-spacing: 0.3rem;
-    padding-top: 10px;
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -128,10 +99,6 @@ h3 {
 }
 
 .menu li {
-  float: right;
-  margin-right: 30px;
-  margin-top: 0px;
-  padding: 0px;
   color: #fafafa;
 
 }
@@ -252,10 +219,8 @@ h3 {
 }
 
 #timetable {
-    width: 70%;
     min-height: fit-content;
     padding: 5px;
-    margin: 10px auto;
     padding-top: 3.5rem;
 
 }
@@ -361,7 +326,7 @@ footer {
 
 .social {
     width: 100%;
-    text-align: center;
+    justify-content: right;
 }
 
 
@@ -380,6 +345,7 @@ footer {
 .contact-details .value {
     padding-right: 8px;
     display: inline-block;
+    justify-content: left;
 }
 
 .contact-details .key p,
