@@ -4,13 +4,22 @@ Sans-serif
 header {
     margin: 0;
     padding: 0;
-    height: 200px; 
+    height: 80px; 
 }
+
+.container-fluid {
+    margin-right:auto;
+    margin-left:auto;
+    height: auto;
+    width: 105%;
+    padding: 0;
+}
+
 
 body {
     margin: 0;
     padding: 0;
-
+    border: 0;
 }
 
 p {
@@ -39,7 +48,7 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  max-width: 100%;
+  width: initial;
   padding: 0;
   margin: 0;
 }
@@ -47,42 +56,18 @@ h3 {
 
 /*-------Navigation-----*/
 
-
-
-.navmenu {
-    font-family: 'Montserrate', sans-serif;
-    font-weight: 600;
-    color: #fafafa;
-}
-
 .menu {
     background-color: #072446;
 }
 
-
-#navigation li {
-    float: right;
-}
-
-.navigation {
-    float: right;
-}
-    
-
-
-
-
-
-
 /*-------Logo-----*/
-
-
 .logo h1 {
    color: #fafafa;
    font-family: 'Monstserrat', sans-serif ;
    font-weight: 600;
-   
+   text-decoration: none;
 }
+
 
 .logo a i {
     color: #fafafa;
@@ -100,7 +85,17 @@ h3 {
 
 .header-icon:hover {
     color: #e1aa12;
+    text-decoration: none;
 }
+
+.header-icon {
+    color: #fafafa;
+    line-height: 45px;
+    font-size: 40px;
+    text-decoration-line: none;
+    padding-left: 20px;
+    font-family: 'Monstserrat', sans-serif ; 
+} 
 
 
 .navbar-light .navbar-toggler {
@@ -113,13 +108,21 @@ h3 {
 .navbar-light .navbar-nav .nav-link {
     color: #fafafa;
     font-family: 'Monstserrat', sans-serif;
-    font-weight: 600;
+    font-size: x-large;
     text-align: right;
+    padding-right: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #e1aa12;
 }
+
+.navbar-brand2 {
+    color: #fafafa;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 
 .menu li {
   color: #fafafa;
@@ -153,30 +156,34 @@ h3 {
 
 .hero-image img {
    padding-top: 3.5rem;
-   width: 100%;
    height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  max-width: 100%;
+  width: 105%;
+  object-fit: fill;
  
 }
 /*-----------about------*/
 
 .about {
     background-color: #e1aa12;
-    max-width: 100%;
+    width: 100%;
     height: max-content;
     padding-top: 3.5rem;
     margin-bottom: 0;
+    min-width: 100%;
+    content: cover;
+  
 }
 
 .about p {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     text-align: center;
-    padding-bottom: 20px;
+    width: 90%;
+    padding: 0 10px 20px 10px;
 }
 
 /*-----------services------*/
@@ -191,8 +198,8 @@ h3 {
 .s-container {
     background-color: #008089;
     width: 100%;
-    height: 550px;
-    padding: 5px;
+    min-height: 550px;
+    padding: 10px;
     margin: 15px;
     border: solid;
     border-color: #072446;
@@ -255,7 +262,7 @@ h3 {
     min-height: fit-content;
     padding: 5px;
     padding-top: 3.5rem;
-
+    width: 70%;
 }
 
 .table-title th {
@@ -338,6 +345,7 @@ footer {
     min-height: 120px;
     padding-top: 20px;
     margin-top: 0px;
+    width: 100%;
 }
 
 
