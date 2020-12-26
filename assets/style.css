@@ -4,8 +4,13 @@ Sans-serif
 header {
     margin: 0;
     padding: 0;
-    height: 160px;
-    
+    height: 160px; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
 }
 
 p {
@@ -29,12 +34,13 @@ h3 {
 .coach,
 .timetable,
 .sign-up {
-   background: url(../assets/images/light-background.jpg) no-repeat center center fixed; 
+   background: url(../assets/images/light-background.jpg) no-repeat fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
+  padding: 0;
   margin: 0;
 }
 
@@ -52,6 +58,18 @@ h3 {
     background-color: #072446;
 }
 
+.navigation {
+    padding-left: 560px;
+    
+}
+
+#navigation li {
+    float: right;
+}
+    
+
+
+
 
 
 
@@ -62,6 +80,7 @@ h3 {
    color: #fafafa;
    font-family: 'Monstserrat', sans-serif ;
    font-weight: 600;
+   
 }
 
 .logo a i {
@@ -69,6 +88,7 @@ h3 {
     line-height: 45px;
     font-size: 40px;
     text-decoration-line: none;
+    padding-left: 20px;
 }
 
 .logo a {
@@ -119,14 +139,6 @@ h3 {
     color: #24292e;
 }
 /*-----------Hero Image------*/
-
-.hero-image {
-   padding: 0;
-   margin: 0;
-   max-width: 100%;
-   background-size: cover;
-}
-
 
 
 /*-----------about------*/
