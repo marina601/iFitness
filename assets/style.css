@@ -4,7 +4,7 @@ Sans-serif
 header {
     margin: 0;
     padding: 0;
-    height: 160px; 
+    height: 200px; 
 }
 
 body {
@@ -51,19 +51,20 @@ h3 {
 
 .navmenu {
     font-family: 'Montserrate', sans-serif;
-    font-weight: 20px;
+    font-weight: 600;
+    color: #fafafa;
 }
 
 .menu {
     background-color: #072446;
 }
 
-.navigation {
-    padding-left: 560px;
-    
-}
 
 #navigation li {
+    float: right;
+}
+
+.navigation {
     float: right;
 }
     
@@ -104,14 +105,16 @@ h3 {
 
 .navbar-light .navbar-toggler {
     background-color: #e1aa12;
-  
+    padding: 10px;
+    margin: 15px;
+    float: right;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #fafafa;
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
-
+    text-align: right;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -128,6 +131,10 @@ h3 {
     
 }
 
+#mynav li a {
+    float: right;
+}
+
 /*-------heading-----*/
 
 .uppercase {
@@ -139,8 +146,22 @@ h3 {
     color: #24292e;
 }
 /*-----------Hero Image------*/
+.hero-image {
+    width: 100%;
+    height: auto;
+}
 
-
+.hero-image img {
+   padding-top: 3.5rem;
+   width: 100%;
+   height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+ 
+}
 /*-----------about------*/
 
 .about {
