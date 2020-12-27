@@ -7,7 +7,10 @@ header {
     height: 80px; 
 }
 
-
+body {
+    padding: 0;
+    
+}
 
 
 p {
@@ -31,12 +34,14 @@ h3 {
 .coach,
 .timetable,
 .sign-up {
-   background: url(../assets/images/light-background.jpg) no-repeat center center fixed; 
+   background: url(../assets/images/light-background.jpg) repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 105%;
+  min-width: 100%;
+  height: auto;
+  
 
 }
 
@@ -139,10 +144,12 @@ h3 {
 .hero-image {
     width: 100%;
     height: auto;
+    padding: 0;
 }
 
 .hero-image img {
-   padding-top: 3.5rem;
+   padding: 0;
+   margin: 0;
    height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -176,6 +183,15 @@ h3 {
 
 /*-----------services------*/
 
+.service-item {
+    padding: 0;
+    margin: 0;
+}
+
+.services-heading {
+    padding: 0;
+}
+
 .services h3 {
     text-align: center;
     font-family: 'Monstserrat', sans-serif;
@@ -185,10 +201,11 @@ h3 {
 
 .s-container {
     background-color: #008089;
-    width: 100%;
+    width: 300px;
     min-height: 550px;
-    padding: 10px;
-    margin: 15px;
+    max-height: fit-content;
+    padding: 5px;
+    margin: 10px auto;
     border: solid;
     border-color: #072446;
     border-radius: 5px;
@@ -421,7 +438,7 @@ footer {
 }
 
 .video {
-    width: 80%;
+    width: 70%;
     margin: 20px, auto;
 
 }
