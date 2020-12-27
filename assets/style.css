@@ -12,9 +12,15 @@ body {
     
 }
 
+section {
+    padding: 0;
+    margin: 0;
+}
+
 
 p {
     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     font-weight: 500;
     text-align: center;
     padding-bottom: 20px;
@@ -34,14 +40,13 @@ h3 {
 .coach,
 .timetable,
 .sign-up {
-   background: url(../assets/images/light-background.jpg) repeat center center fixed; 
+   background: url(../assets/images/light-background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-width: 100%;
+  width: 100%;
   height: auto;
-  
 
 }
 
@@ -135,8 +140,9 @@ h3 {
 .uppercase {
     text-align: center;
     font-family: 'Monstserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     padding: 20px;
+    margin: 10px;
     text-transform: uppercase;
     color: #24292e;
 }
@@ -201,10 +207,10 @@ h3 {
 
 .s-container {
     background-color: #008089;
-    width: 300px;
-    min-height: 550px;
+    width: 360px;
+    min-height: 620px;
     max-height: fit-content;
-    padding: 5px;
+    padding: 10px;
     margin: 10px auto;
     border: solid;
     border-color: #072446;
@@ -214,16 +220,15 @@ h3 {
 
 
 /*-----------Coaches------*/
+
 .coach-img  {
     border-radius: 50%;
-    padding: 20px;
-    margin-left: 22px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 5px;
+    margin: 10px auto;
     border-color: #e1aa12;
     border: solid;
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 260px;
 }
 
 .weight-coach {
@@ -234,10 +239,12 @@ h3 {
 
 .team {
     background-color: #013a67;
-    width: 340px;
-    height: 525px;
+    width: 360px;
+    min-width: fit-content;
+    height: 680px;
+    min-height: fit-content;
     padding: 20px;
-    margin: 10px 45px 25px;
+    margin: 10px auto;
     border: solid;
     border-color: #e1aa12;
     border-radius: 10px;
@@ -245,6 +252,24 @@ h3 {
     display: inline-block;
 }
 
+ 
+
+
+.social-coach {
+    color: #e1aa12;
+}
+
+.social-coach:hover {
+    color: #fafafa;
+}
+
+.follow-coach {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
 
 /*-----------Timetable------*/
 
@@ -257,6 +282,11 @@ h3 {
     border: solid 1em #072446;
     border-radius: 5px;
     margin: 20px;
+}
+
+.table {
+    width: 70%;
+    margin: 5px auto
 }
 
 #timetable p {
@@ -297,6 +327,7 @@ tbody {
     border: 5px;
     padding: 5px;
 }
+
 
 /*-----------SignUp------*/
 
@@ -349,6 +380,7 @@ footer {
     background-color: #072446;
     min-height: 120px;
     padding-top: 20px;
+    padding-left: 2px;
     margin-top: 0px;
     width: 100%;
 }
@@ -356,6 +388,14 @@ footer {
 
 .footer-heading {
     color: #fafafa;
+    margin-right: 12px;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    padding: 0px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 10px;
+
 }
 
 .social-link {
@@ -371,8 +411,7 @@ footer {
 }
 
 .social {
-    width: 100%;
-    justify-content: right;
+    float: right;
 }
 
 
@@ -392,16 +431,19 @@ footer {
     padding-right: 8px;
     display: inline-block;
     justify-content: left;
+    margin-bottom: 10px;
 }
 
 .contact-details .key p,
 .contact-details .value p {
-    margin: 0;
-    padding: 0;
+    padding-left: 2px;
+    padding-bottom: 0;
+    margin-left: 10px;
+    
 }
 
 .contact-details .key {
-    width: 40%;
+    width: 30%;
     align-items: center;
     margin-right: 21px;
     padding-top: 2px;
@@ -417,16 +459,21 @@ footer {
 .contact-details .value p {
     position: relative;
     font-weight: 300;
-    text-align: justify;
+    text-align: right;
     
 }
 
 .footer-contact {
-    margin-left: 60px;
+    margin-left: 12px;
+    margin-top: 10px;
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
-    padding: 20px;
+    padding: 0px;
     text-transform: uppercase;
+    text-align: left;
+    color: #fafafa;
+    
+
 
 }
 
