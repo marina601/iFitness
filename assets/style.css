@@ -383,8 +383,8 @@ input {
 footer {
 
     background-color: #072446;
-    min-height: 120px;
-    padding-top: 20px;
+    max-height: 140px;
+    padding-top: 2px;
     padding-left: 2px;
     margin-top: 0px;
     width: 100%;
@@ -483,8 +483,11 @@ footer {
 
 
 .ifitness-logo {
-  width: 100px;
-  height: 100px;
+  width: 70%;
+  height: 140px;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 100px;
 }
 
 
