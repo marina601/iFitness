@@ -17,6 +17,11 @@ section {
     margin: 0;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 p {
     font-family: 'Raleway', sans-serif;
@@ -460,6 +465,8 @@ footer {
     position: relative;
     font-weight: 300;
     text-align: right;
+    margin-left: 0px;
+    padding-left: 0px;
     
 }
 
@@ -472,10 +479,14 @@ footer {
     text-transform: uppercase;
     text-align: left;
     color: #fafafa;
-    
-
-
 }
+
+
+.ifitness-logo {
+  width: 100px;
+  height: 100px;
+}
+
 
 /*-----------Video------*/
 
