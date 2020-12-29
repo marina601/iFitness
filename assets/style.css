@@ -30,6 +30,8 @@ p {
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 0px;
+    margin: 5px;
+    padding: 5px;
 }
 
 h3 {
@@ -180,8 +182,6 @@ h3 {
     padding-top: 3.5rem;
     margin-bottom: 0;
     min-width: 100%;
-    content: cover;
-  
 }
 
 .about p {
@@ -290,7 +290,7 @@ h3 {
 }
 
 .table {
-    width: 70%;
+    max-width: 70%;
     margin: 5px auto
 }
 
@@ -459,20 +459,21 @@ footer {
     padding-bottom: 0;
     margin-left: 10px;
     margin-top: 10px;
+
     
 }
 
 .contact-details .key {
     width: 40%;
     align-items: center;
-    margin-right: 21px;
+    margin-right: 5px;
     padding-top: 2px;
     vertical-align: top;
 }
 
 .contact-details .key p {
     font-weight: 400;
-    font-family: 'Monstserral' sans-serif;
+    font-family: 'Monstserrat', sans-serif;
     text-align: left;
 }
 
@@ -538,10 +539,70 @@ footer {
 
 .video {
     width: 70%;
-    margin: 20px, auto;
+    margin: 20px auto;
 
 }
 
 .workout {
     align-content: center;
+}
+
+
+/*-----------Media------*/
+
+@media screen and (max-width: 1393px) {
+    
+    .footer-contact ,
+    .heading-socials {
+        display: block;
+        text-align: center;
+    }
+
+    .heading-socials {
+       margin-top: -40px;
+    }
+
+    .contact-details {
+        
+        display: inline-block;
+    }
+
+    .contact-details .key ,
+    .contact-details .value {
+        width: 100%;
+    }
+
+    .social {
+        float: none;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 2px;
+        padding-bottom: 4px;
+
+    }
+
+    .contact-details .key p,
+    .contact-details .value p {
+     
+     display: inline-flex;
+    }
+
+    .call {
+        justify-content: left;
+    }
+
+    #email {
+        text-align: right;
+        margin-left: 70px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    #email-address {
+        text-align: right;
+        margin-left: 70px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
 }
