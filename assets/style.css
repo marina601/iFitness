@@ -381,11 +381,9 @@ input {
 /*-----------Footer---*/
 
 footer {
-
     background-color: #072446;
     min-height: 120px;
-    padding-top: 2px;
-    padding-left: 2px;
+    padding: 10px;
     margin-top: 0px;
     width: 100%;
 }
@@ -393,14 +391,28 @@ footer {
 
 .footer-heading {
     color: #fafafa;
-    margin-right: 12px;
+    margin-right: 9px;
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
     padding: 0px;
     text-transform: uppercase;
-    text-align: right;
     margin-top: 10px;
+    float: left;
 
+}
+
+.heading-socials {
+    text-align: right;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 20px;
+    color: #fafafa;
+    font-family: 'Monstserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .social-link {
@@ -417,6 +429,8 @@ footer {
 
 .social {
     float: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -444,11 +458,12 @@ footer {
     padding-left: 2px;
     padding-bottom: 0;
     margin-left: 10px;
+    margin-top: 10px;
     
 }
 
 .contact-details .key {
-    width: 30%;
+    width: 40%;
     align-items: center;
     margin-right: 21px;
     padding-top: 2px;
