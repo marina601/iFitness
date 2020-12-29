@@ -616,6 +616,55 @@ footer {
         max-width: 70%;
     }
 
+    .table-title tr th {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+
+    }
+
+    .table-border tr th {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .table {
+        margin: 0px;
+    }
+
+    .table-border td {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    #timetable h2 {
+        padding-left: 90px;
+    }
+
+    #timetable p {
+        width: 350px;
+        padding-left: 20px;
+        margin-left: 10px;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .table-responsive-sm {
+        margin-left: 5px;
+        margin-right: 0px;
+        padding-left: 8px;
+    }
+
+    td {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .contact-details .key p,
     .contact-details .value p {
         display: inline;
