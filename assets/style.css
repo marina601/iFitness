@@ -378,12 +378,12 @@ input {
 }
 
 
-/*-----------Footer------*/
+/*-----------Footer---*/
 
 footer {
 
     background-color: #072446;
-    max-height: 140px;
+    min-height: 120px;
     padding-top: 2px;
     padding-left: 2px;
     margin-top: 0px;
@@ -482,13 +482,36 @@ footer {
 }
 
 
-.ifitness-logo {
-  width: 70%;
-  height: 140px;
-  margin: 0px;
-  padding: 0px;
-  padding-left: 100px;
+.circle {
+    width: 60%;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #e1aa12;
+    margin: 10px auto;
+    padding: 2px;
 }
+
+.circle-inner {
+    display: block;
+    color: #fafafa;
+    position: relative;
+}
+
+.circle-inner h3 {
+    display: block;
+    color: #fafafa;
+    line-height: 45px;
+    font-size: 40px;
+    text-decoration-line: none;
+    padding-left: 20px;
+    font-family: 'Monstserrat', sans-serif ;
+}
+
+.circle-inner h3 i {
+    display: block;
+}
+
+
 
 
 /*-----------Video------*/
