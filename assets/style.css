@@ -550,7 +550,7 @@ footer {
 
 /*-----------Media------*/
 
-@media screen and (max-width: 1393px) {
+@media screen and (max-width: 1020px) {
     
     .footer-contact ,
     .heading-socials {
