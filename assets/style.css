@@ -64,6 +64,10 @@ h3 {
     background-color: #072446;
 }
 
+nav {
+    padding: 0;
+}
+
 /*-------Logo-----*/
 .logo h1 {
    color: #fafafa;
@@ -149,7 +153,7 @@ h3 {
     font-family: 'Monstserrat', sans-serif;
     font-weight: 700;
     padding: 20px;
-    margin: 10px;
+    margin: 10px 0px;
     text-transform: uppercase;
     color: #24292e;
 }
@@ -286,7 +290,7 @@ h3 {
     background-color: #008089;
     border: solid 1em #072446;
     border-radius: 5px;
-    margin: 20px;
+    margin: 20px 0px 20px 20x;
 }
 
 .table {
@@ -603,6 +607,88 @@ footer {
         margin-left: 70px;
         margin-right: 0px;
         padding-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    #timetable {
+        max-width: 70%;
+    }
+
+    .contact-details .key p,
+    .contact-details .value p {
+        display: inline;
+    }
+
+    .contact-details .key p {
+        float: left;
+        padding-left: 20px
+    }
+
+    .contact-details .value p {
+        float: right;
+        margin-top: -60px;
+        padding-right: 20px;
+        margin-right: 5px;
+        padding-left: 30px;
+    }
+
+    .footer-contact {
+        margin-left: 0px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+    }
+
+    .footer-contact ,
+    .heading-socials {
+        display: block;
+        text-align: center;
+    }
+
+    .heading-socials {
+       margin: 0;
+       padding: 0;
+    }
+
+    .contact-details .key ,
+    .contact-details .value {
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .contact-details .value {
+        padding-left: 50px;
+    }
+
+    .social {
+        float: none;
+        text-align: center;
+        margin-bottom: 2px;
+        padding-bottom: 4px;
+    }
+
+   
+
+    .call {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #email {
+        text-align: center;
+        padding: 0;
+        margin: 0px 0px 5px 0px;
+    }
+
+    #email-address {
+        text-align: center;
+        padding-left: 30px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    
     }
 
 }
