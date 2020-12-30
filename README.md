@@ -27,6 +27,8 @@ You can view the site [here](https://marina601.github.io/iFitness/)
         2. As a Frequent User, I want to be able to access my workouts on demand.
         3. As a Frequent User, I want to be able to purchase relevant products to help me during, before and after workouts. 
 
+
+
 - ### Design
    
     - ### Color Scheme 
@@ -54,7 +56,29 @@ You can view the site [here](https://marina601.github.io/iFitness/)
 
 - Responsive on all devices 
 
+- Responsive nav bar and sticky nav bar used from Bootstrap library, also includes a toggler class which makes
+the nav element compress into a hamburger button when viewed on smaller devices.
+
+- A sign up form used to enter the details of new members
+
+- A table element used to display the timetable of the workouts in the user-friendly way
+
 - Interactive elements 
+
+### Future Features
+
+- A pop up window with a newsletter sign up will be introduced where the customers will recieve
+udates and weekly communications
+
+- Contact us form could be introduced in the future to allow userfriendly approach to get in touch with the 
+organisation.
+
+- A library of recorded training sessions for existing members where they can pick and choose a workout they wish 
+to complete. 
+
+- E-commerce page could be introduced where the customers are able to purchase relevant products and browese through them.
+
+
 
 ## Technology Used
 
@@ -250,14 +274,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -    Yoga instructor image came from [Pixabay by sippakorn](https://pixabay.com/photos/professional-trainer-yoga-exercise-4781791/)
 
--   iFitness logo image created by developer using [Canva](https://www.canva.com/folder/all-designs)
+-    Video for complimentary workout came from [YouTube by Caroline Girva](https://www.youtube.com/watch?v=5i8y-_cbwgw)
 
 -
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Medale Oluwafemi for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their support and Slack Community.
 
 
 
