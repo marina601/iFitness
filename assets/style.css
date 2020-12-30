@@ -611,9 +611,9 @@ footer {
 
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575.98px) {
     #timetable {
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .table-title tr th {
@@ -645,19 +645,14 @@ footer {
     }
 
     #timetable p {
-        width: 350px;
-        padding-left: 20px;
-        margin-left: 10px;
+        padding-left: 80px;
+        margin: 10px auto;
         padding-right: 0px;
-        margin-right: 0px;
-        margin-bottom: 10px;
-        margin-top: 0px;
     }
 
     .table-responsive-sm {
-        margin-left: 5px;
-        margin-right: 0px;
-        padding-left: 8px;
+        margin: 10px auto;
+        padding-left: 10px;
     }
 
     td {
@@ -738,6 +733,12 @@ footer {
         margin-left: 0px;
         margin-bottom: 5px;
     
+    }
+
+    .team {
+        width: 360px;
+        height: 680px;
+        margin: 10px 10px;
     }
 
 }
