@@ -47,7 +47,7 @@ h3 {
 .coach,
 .timetable,
 .sign-up {
-   background: url(../assets/images/light-background.jpg) no-repeat center center fixed; 
+   background: url(../images/light-background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -245,11 +245,11 @@ nav {
     border-color: #e1aa12;
     border: solid;
     width: 100%;
-    height: 260px;
+    
 }
 
 .weight-coach {
-    height: 260px;
+    
     width: 100%;
     border-radius: 50%;
 }
@@ -258,8 +258,6 @@ nav {
     background-color: #013a67;
     width: 360px;
     min-width: fit-content;
-    height: 680px;
-    min-height: fit-content;
     padding: 20px;
     margin: 10px auto;
     border: solid;
@@ -267,6 +265,11 @@ nav {
     border-radius: 10px;
     color: #e1aa12;
     display: inline-block;
+    min-height: 40rem;
+}
+
+.team-paul {
+   min-height: 40rem;
 }
 
  
@@ -282,10 +285,6 @@ nav {
 
 .follow-coach {
     text-align: center;
-    width: 100%;
-    height: 20px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
 }
 
 /*-----------Timetable------*/
