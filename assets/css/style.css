@@ -191,8 +191,9 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     text-align: center;
-    width: 90%;
-    padding: 0px 10px 20px 10px;
+    padding: 0px 20px 20px 20px;
+    width: 100%;
+    margin: 5px;
 }
 
 b, strong ,
@@ -297,7 +298,7 @@ em {
     background-color: #008089;
     border: solid 1em #072446;
     border-radius: 5px;
-    margin: 20px 0px 20px 20x;
+    margin: 20px 0px 20px 20px;
 }
 
 .table {
