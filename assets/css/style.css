@@ -23,18 +23,17 @@ section {
 }
 
 
-p {
+.p-general {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    padding-bottom: 20px;
     margin-bottom: 0px;
     margin: 5px;
     padding: 5px;
 }
 
-h3 {
+.sub-heading {
     text-align: center;
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
@@ -193,7 +192,17 @@ nav {
     font-weight: 500;
     text-align: center;
     width: 90%;
-    padding: 0 10px 20px 10px;
+    padding: 0px 10px 20px 10px;
+}
+
+strong {
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: #24292e;
+}
+
+em {
+    font-weight: 600;
 }
 
 /*-----------services------*/
@@ -250,8 +259,8 @@ nav {
 
 .team {
     background-color: #013a67;
-    width: 360px;
-    min-height: 620px;
+    width: 460px;
+    min-height: 640px;
     max-height: fit-content;
     padding: 20px;
     margin: 10px auto;
@@ -340,6 +349,11 @@ tbody {
 
 .sign-up {
    padding-bottom: 20px;
+}
+
+mark {
+    background-color: #072446;
+    color: #fafafa;
 }
 
 .sign-up p {
@@ -457,14 +471,13 @@ footer {
     padding-bottom: 0;
     margin-left: 10px;
     margin-top: 10px;
-
-    
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .contact-details .key {
-    width: 40%;
     align-items: center;
-    margin-right: 5px;
     padding-top: 2px;
     vertical-align: top;
 }
