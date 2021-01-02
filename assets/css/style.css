@@ -99,7 +99,7 @@ nav {
     color: #fafafa;
     line-height: 45px;
     font-size: 40px;
-    text-decoration-line: none;
+    text-decoration: none;
     padding-left: 20px;
     font-family: 'Monstserrat', sans-serif ; 
 } 
@@ -566,7 +566,11 @@ footer {
 
 /*-----------Media------*/
 
+/*-----------Screen size max-width 1020px------*/
+
 @media screen and (max-width: 1020px) {
+
+/*-----------Footer------*/
     
     .footer-contact ,
     .heading-socials {
@@ -623,14 +627,24 @@ footer {
 
 }
 
+/*-----------Screen Size max width 1199.98------*/
+
+
 @media screen and (max-width: 1199.98px) {
+
+/*-----------Services------*/
     .s-container {
         width: 90%;
         height: 720px;
     }
 }
 
+/*-----------Screen size max-width 575.98px------*/
+
+
 @media screen and (max-width: 575.98px) {
+
+/*-----------Timetable------*/
     #timetable {
         max-width: 80%;
     }
@@ -678,7 +692,7 @@ footer {
         padding-left: 0px;
         padding-right: 0px;
     }
-
+/*-----------Footer------*/
     .contact-details .key p,
     .contact-details .value p {
         display: inline;
@@ -754,6 +768,8 @@ footer {
     
     }
 
+    /*-----------Team------*/
+
     .team {
         width: 93%;
         height: 680px;
@@ -762,11 +778,5 @@ footer {
 
 }
 
-@media screen and (max-width: 769.98px) {
 
 
-    .about p {
-        padding-left: 50px;
-        padding-right: 0px;
-    }
-}
