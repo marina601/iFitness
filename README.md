@@ -270,7 +270,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -    Community image came from [Pixabay by karabulakastan](https://pixabay.com/photos/kettlebell-fitness-crossfit-fit-3290303/)
 
--    Weight instructor2 image came from [Pixabay by stock snap](https://pixabay.com/photos/people-man-exercise-fitness-health-2604149/)
+-    Weight coach image came from [Pixels by Piks by Panther](https://www.pexels.com/photo/photo-of-man-with-muscular-body-1547248/)
 
 -    Yoga instructor image came from [Pixabay by sippakorn](https://pixabay.com/photos/professional-trainer-yoga-exercise-4781791/)
 
