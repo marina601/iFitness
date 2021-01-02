@@ -244,20 +244,15 @@ nav {
     margin: 10px auto;
     border-color: #e1aa12;
     border: solid;
-    width: 100%;
-    
 }
 
-.weight-coach {
-    
-    width: 100%;
-    border-radius: 50%;
-}
+
 
 .team {
     background-color: #013a67;
     width: 360px;
-    min-width: fit-content;
+    min-height: 620px;
+    max-height: fit-content;
     padding: 20px;
     margin: 10px auto;
     border: solid;
@@ -265,15 +260,7 @@ nav {
     border-radius: 10px;
     color: #e1aa12;
     display: inline-block;
-    min-height: 40rem;
 }
-
-.team-paul {
-   min-height: 40rem;
-}
-
- 
-
 
 .social-coach {
     color: #e1aa12;
