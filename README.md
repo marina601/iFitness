@@ -21,11 +21,11 @@ You can view the site [here](https://marina601.github.io/iFitness/)
         2. As a Returning Visitor I want to find, a sign up form.
         3. As a Returning Visitor I want to find, a way to get in contact if I have any further queres. 
 
-    - ### Frequent User Goals
+    - ### Business Owner 
      
-        1. As a Frequent User, I want to be able to join in live workout classes.
-        2. As a Frequent User, I want to be able to access my workouts on demand.
-        3. As a Frequent User, I want to be able to purchase relevant products to help me during, before and after workouts. 
+        1. As a Business Owner, I want to provide a responsive platform for my custors.
+        2. As a Business Owner, I want to gain more memberships.
+        3. As a Business Owner, I want to generate income from affiliate links. 
 
 
 
@@ -44,6 +44,9 @@ You can view the site [here](https://marina601.github.io/iFitness/)
     - ### Imagery
         - All the imagery is imported from [Pixabay](https://pixabay.com/) and [Pixels](https://www.pexels.com/) online photo librarys.
 
+    - ### Video
+         - The video has been sorced from [YouTube](https://www.youtube.com/)
+
 - ## Wireframes 
 
    - Desktop/Laptop view Wireframe - [View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/wireframes/Landing%20Page%20Online%20Gym%20-%20wireframe.png)
@@ -59,9 +62,15 @@ You can view the site [here](https://marina601.github.io/iFitness/)
 - Responsive nav bar and sticky nav bar used from Bootstrap library, also includes a toggler class which makes
 the nav element compress into a hamburger button when viewed on smaller devices.
 
-- A sign up form used to enter the details of new members
+- A link to the home page (top of the page) has been provided via Logo of the site as well as Home button at the main menu. 
 
-- A table element used to display the timetable of the workouts in the user-friendly way
+- Each section of the page is easily accessible using sticky menu on the navigation bar.
+
+- A sign up form used to enter the details of new members.
+
+- A table element used to display the timetable of the workouts in the user-friendly way.
+
+- Social Icons have been used to give user validation of the authethisity of the site.
 
 - Interactive elements 
 
@@ -90,7 +99,7 @@ to complete.
 ### Frameworks, Librarys and Programs Used 
 
 1. [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
- - mainly for responsive grid system
+ - mainly for responsive grid system and used components to assist styling of the elements.
 also used Java Script components for responsive navigation bar and toggler class to create a humburger button on the mobile device. 
 Bootstrap css library has been used to help with additional styling on the webpage.
 
@@ -118,7 +127,7 @@ browsers.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
@@ -273,6 +282,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -    Weight coach image came from [Pixels by Piks by Panther](https://www.pexels.com/photo/photo-of-man-with-muscular-body-1547248/)
 
 -    Yoga instructor image came from [Pixabay by sippakorn](https://pixabay.com/photos/professional-trainer-yoga-exercise-4781791/)
+
+### Video
 
 -    Video for complimentary workout came from [YouTube by Caroline Girva](https://www.youtube.com/watch?v=5i8y-_cbwgw)
 
