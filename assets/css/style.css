@@ -195,6 +195,7 @@ nav {
     padding: 0px 10px 20px 10px;
 }
 
+b, strong ,
 strong {
     font-size: 23px;
     letter-spacing: 2px;
@@ -245,6 +246,7 @@ em {
 
 #team {
     padding-top: 3.5rem;
+    
 }
 
 .coach-img  {
@@ -259,8 +261,8 @@ em {
 
 .team {
     background-color: #013a67;
-    width: 460px;
-    min-height: 640px;
+    width: 90%;
+    min-height: 680px;
     max-height: fit-content;
     padding: 20px;
     margin: 10px auto;
@@ -281,6 +283,8 @@ em {
 
 .follow-coach {
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*-----------Timetable------*/
@@ -618,6 +622,13 @@ footer {
 
 }
 
+@media screen and (max-width: 1199.98px) {
+    .s-container {
+        width: 90%;
+        height: 720px;
+    }
+}
+
 @media screen and (max-width: 575.98px) {
     #timetable {
         max-width: 80%;
@@ -659,7 +670,7 @@ footer {
 
     .table-responsive-sm {
         margin: 10px auto;
-        padding-left: 10px;
+        padding-left: 30px;
     }
 
     td {
@@ -743,9 +754,18 @@ footer {
     }
 
     .team {
-        width: 360px;
+        width: 93%;
         height: 680px;
         margin: 10px 10px;
     }
 
+}
+
+@media screen and (max-width: 769.98px) {
+
+
+    .about p {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
 }
