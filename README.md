@@ -3,7 +3,10 @@
 I have created a virtual gym platform where anybody who is intrested in looking after
 their health and wellbeing able to access live or on demand workouts **Anytime and Anywhere**!
 
+
 You can view the site [here](https://marina601.github.io/iFitness/)
+
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/Testing/responsive-screen.png"></h2>
 
 ## UX
 
@@ -25,7 +28,7 @@ You can view the site [here](https://marina601.github.io/iFitness/)
      
         1. As a Business Owner, I want to provide a responsive platform for my custors.
         2. As a Business Owner, I want to gain more memberships.
-        3. As a Business Owner, I want to generate income from affiliate links. 
+        3. As a Business Owner, I want the users of the site to be able to contact me.
 
 
 
@@ -70,7 +73,7 @@ the nav element compress into a hamburger button when viewed on smaller devices.
 
 - A table element used to display the timetable of the workouts in the user-friendly way.
 
-- Social Icons have been used to give user validation of the authethisity of the site.
+- Social Icons have been used to give user validation of the authethisity of the site, which open in the new browser tab to ensure the user has easy access and able to retur to the site.
 
 - Interactive elements 
 
@@ -91,7 +94,7 @@ to complete.
 
 ## Technology Used
 
-## Language Used
+### Language Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -137,20 +140,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    - 1. As a First Time Visitor I want understand the main purpose of the virtual gym and learn more about the organisation. 
     
      - The first time visitor is greated with a large hero-image of 2 people working out and an iconic logo on the left hand side of the navigation bar which clearly definds the 
-     the purpose of the site 
+     the purpose of the site.
+
      - About section is right at the top of the page which tell the first time user the mission statement and the purpose of the site.
+
+     - Team section has been created to let the user meet the coaches and get to know their background before becoming a member of enrolling into free trial.
 
    - 2. As a First Time Visitor I want to easily navigate throughout the site to find schedule of workouts available.
      
-     - I have used sticky navigation bar class which anables user to have access to the a navigation bar at all time and access the site easily.
+     - I have used sticky navigation bar class which enables user to have access to the a navigation bar at all time to move from section to section.
+
      - The navigation menu also includes timetable which allowes first time users to see a live workout schedule which includes times and workout classes by category.
+
+     - Logo image at the left hand side of the navigation bar is linked back to the top of the page.
+     
 
 
    - 3. As a Frist Time Visitor I want to find social media platform where existing members are reviewing the live workout classes and their progress.
-      
-      - As a first time user you will be able to learn about our support community, where any questions can be asnwered by existing members and coaches.
-      - As a first time user you will be able to follow our coaches on social media with the links attached at he bottom of their profile sections.
-      - As a first time user you will be able to browse through our social media channels which will lead you to our community, which will build trust of the product.
+
+      - As a first time user you will be able to learn about the services we offer using a navigation menu and clicking on the services tab.
+
+      - As a first time user you will be able to follow our coaches on social media with the links attached at the bottom of their profile sections.
+
+      - As a first time user you will be able to locate social media links in the footer of the site to check out different social media platforms of the site. (As per MS1 social media links are 
+      only linked to the home page of the different platforms).
+
 
 -   #### Returning Visitor Goals
 
@@ -162,44 +176,55 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
       - As a returning visitor you will be able to sign up easily, either using a link through navigation bar, or 
       scrolling down to the bottom of the page. 
+
       - As a promotion and to gain more memberships, a promotional discount is applied to new users.
 
     - 3. As a Returning Visitor I want to find, a way to get in contact if I have any further queres. 
     
       - As a returning visitor you will be able to find contact information at he bottom of the footer.
+
       - No address has been provided as it is a virtual platform which can be accessed Anytime Anywhere.
+
       - Footer also provides links to the social media accounts of the gym.
+
       - All the social media links will open in the new tab, which will able the user to easily
       return to the original site. 
 
--   #### Frequent User Goals
+-   ### Business Owner 
+     
+    1. As a Business Owner, I want to provide a responsive platform for my custors.
 
-    1. As a Frequent User, I want to be able to join in live workout classes.
+     - The website has been tested on mobile, tablet and laptop devices, all the tests have been positive and 
+     the site responce well on all devices.
 
-     - A Frequent user will be familiar with the layout of the site.
-     - Following a sign up process they will recieve a link which they can use to join live classes.
-     - Timetable will be updated on the monthly basis, following a review on individual workout popularity and members feedback.
+     - The customer is able to view range of services provided by the business owner: live workout classes, 
+     on demand workouts, community platform and product range.
+    
 
-    2. As a Frequent User, I want to be able to access my workouts on demand.
+     - The customer is able to access the complimentary video footage on all devices. 
 
-     - Each day they will be able to enjoy a workout on demand, after reciving an email of live recording from the gym.
-     - Recordings of the workouts will be available to view for seven days. 
-     - Following initial free trial, users will be send an email with a link to complete their purchase and sign up to a 
-     monthly fee. 
+    2. As a Business Owner, I want to gain more memberships.
+    
+     - A sign up button is part of the navigation and leads the user directly to a form which 
+     is asking a user for their first name, last name, email address and password. 
 
-    3. As a Frequent User, I want to be able to purchase relevant products to help me during, before and after workouts.
+     - Above a sign up form a message is displayed with a complimentary trial offer.
 
-    - A frequent user will be able to access an online e-commerce site where they will be able to purchase a
-    number of products from workout gear, cloth and supplements.
-    - A frequent user will also have access to members community which will support each other. 
-    - Coaches will be also available to answear any questions the member might have.   
+    3. As a Business Owner, I want the users of the site to be able to contact me.
+
+     - In the footer element at the bottom of the page, a telephone number and email address has been provided.
+
+     - The user can contact a business owner using either one of above methods.
+
+
     
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Bugs
 
 ## Deployment
 
@@ -253,11 +278,20 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [Pixabay ID 5132824](https://pixabay.com/photos/sport-push-up-strength-training-2264825/)
+-   A code for perfect background image has been taken from [CSS trick](https://css-tricks.com/perfect-full-page-background-image/)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Also 
+Bootstrap css library has been used to make site more appealing and responsive. 
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   A code for a table element has been taken from [Bootstrap](https://getbootstrap.com/docs/4.3/content/tables/) and then modified to fit the purpose of the site. 
+
+-   A togler class has been used to create a responsive navebar [Bootsrap](https://getbootstrap.com/docs/4.3/components/navbar/), toggler class has been used to create a hamburger button on small screen devices.
+
+-   Embaded iframe code has been used from [YouTube](https://www.youtube.com/watch?v=5i8y-_cbwgw&t=1333s) to embade a video link from the YouTube channel. 
+
+-   A link to icons have been used from [Fontawsome](https://fontawesome.com/).
+
+
 
 ### Content
 
@@ -290,9 +324,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -
 ### Acknowledgements
 
--   My Mentor Medale Oluwafemi for continuous helpful feedback.
+-   My Mentor Medale Oluwafemi for continuous support and helpful feedback.
 
--   Tutor support at Code Institute for their support and Slack Community.
+-   Tutor support at Code Institute for their support and guidance.
+
+-   Slack Community for helping get through the obsticles found along the way.
 
 
 
