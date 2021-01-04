@@ -166,9 +166,13 @@ browsers.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
 
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/html-validator.png"></h2>
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
+
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/css-validator.png"></h2>
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
@@ -265,7 +269,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/home-sm-screenview.jpg)
 ![Large Screenview](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/lg-view-homescreen.png)
 
--  Using [Google Chrome Lighthouse]()to improve site usebality 
+-  Using [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse)to improve site usebality and overall performance.
+
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/Lighthouse-report.png"></h2>
  
 
      - Encountered an issue with Links to cross origin destination and added rel="noreferrer" to avoid
