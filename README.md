@@ -6,7 +6,43 @@ their health and wellbeing able to access live or on demand workouts **Anytime a
 
 You can view the site [here](https://marina601.github.io/iFitness/)
 
-<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/Testing/responsive-screen.png"></h2>
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/responsive-screen.png"></h2>
+
+## Table Content
+
+1 [**UX**](#ux)
+   - [**User Stories**](#user-stories)
+   - [**Design**](#design)
+   - [**Wireframes**](#wireframes)
+
+2 [**Features**](#features)
+
+3 [**Technology Used**](#technology-used)
+   - [**Languages Used**](#language-used)
+   - [**Frameworks, Libraries and Programs Used**](#frameworks,-libraries-and-programs-used)
+
+4 [**Testing**](#testing)
+   - [**Testing User Stories**](#testing-user-stories)
+   - [**Further Testing**](#further-testing)
+      - [**Navigation Testing**](#navigation-testing)
+      - [**Social Links**](#social-links)
+      - [**Video**](#video)
+      - [**Sign Up Form**](#sign-up-form)
+      - [**Services**](#services)
+      - [**Team**](#team)
+      - [**Footer**](#footer)
+   - [**Bugs**](#Bugs)
+
+5 [**Deployment**](#deployment)
+  - [**GitHub Pages**](#github-pages)
+  - [**Forking to GitHub Respiratories**](#forking-to-github-respiratories)
+  - [**Making a local clone**](#making-a-local-clone)
+
+6 [**Credits**](#credits)
+ - [**Code**](#code)
+ - [**Media**](#media)
+ - [**Video**](#video)
+ - [**Aknowlegment**](#testing-user-stories)
 
 ## UX
 
@@ -99,7 +135,7 @@ to complete.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Librarys and Programs Used 
+### Frameworks, Libraries and Programs Used 
 
 1. [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
  - mainly for responsive grid system and used components to assist styling of the elements.
@@ -228,6 +264,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/home-sm-screenview.jpg)
 ![Large Screenview](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/lg-view-homescreen.png)
+
+-  Using [Google Chrome Lighthouse]()to improve site usebality 
+ 
+
+     - Encountered an issue with Links to cross origin destination and added rel="noreferrer" to avoid
+     security issues. Please find out more [here](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
+
+     - Headings used on the website were not in sequence and the changes were implemented 
+
+     - Encountered an issue with accessability having poor contrast between background and font colors, using the information from Google Lighthouse was able to fix the issue. 
+     [Please check out the article here](https://web.dev/color-contrast/?utm_source=lighthouse&utm_medium=devtools)
 
 
 #### Navigation Bar Testing 
