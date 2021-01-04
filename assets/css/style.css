@@ -229,6 +229,7 @@ em {
     font-family: 'Monstserrat', sans-serif;
     font-weight: 600;
     padding: 20px;
+    color: #fafafa;
 }
 
 .s-container {
@@ -241,6 +242,7 @@ em {
     border: solid;
     border-color: #072446;
     border-radius: 5px;
+    color: #fafafa;
 }
 
 
@@ -251,6 +253,7 @@ em {
     padding-top: 3.5rem;
     
 }
+
 
 .coach-img  {
     border-radius: 50%;
@@ -297,10 +300,12 @@ em {
 .table {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     background-color: #008089;
     border: solid 1em #072446;
     border-radius: 5px;
     margin: 20px 0px 20px 20px;
+    color: #fafafa;
 }
 
 .table {
@@ -309,7 +314,7 @@ em {
 }
 
 #timetable p {
-    color: #24292e;
+    color: black;
 }
 
 #timetable {
@@ -322,8 +327,14 @@ em {
 .table-title th {
     text-align: center;
     font-family: 'Monstserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     border: solid 5px #072446;
+    color: #fafafa;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: #072446;
+    
+    
     
 }
 
@@ -334,6 +345,10 @@ tbody {
 
 .table-border th {
     border: solid 5px #072446;
+    color: #fafafa;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: #072446;
 }
 
 .table-border td {
