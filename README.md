@@ -42,7 +42,7 @@ You can view the site [here](https://marina601.github.io/iFitness/)
  - [**Code**](#code)
  - [**Media**](#media)
  - [**Video**](#video)
- - [**Aknowlegment**](#testing-user-stories)
+ - [**Acknowledgment**](#acknowledgment)
 
 ## UX
 
@@ -77,7 +77,7 @@ You can view the site [here](https://marina601.github.io/iFitness/)
          3. #008089 _Green_ - Relaxing and Meditative also represents healing to complement our Yoga Classes 
 
     - ### Typorgaphy
-        - Used Montseratt font for all the headings on the page and Releway for all the paragraphs text with fall back of Sans Serif incase of any reason the font is not imported correctly from Google Fonts library.
+        - Used Montseratt font for all the headings on the page and Releway for all the paragraphs text with fall back of Sans Serif incase of any reason the font is not imported correctly from [Google Fonts library](https://fonts.google.com/)
         - Both of the fonts are easy to read and compliment each other. 
 
     - ### Imagery
@@ -120,7 +120,7 @@ the nav element compress into a hamburger button when viewed on smaller devices.
 ### Future Features
 
 - A pop up window with a newsletter sign up will be introduced where the customers will recieve
-udates and weekly communications
+updates and weekly communications
 
 - Contact us form could be introduced in the future to allow userfriendly approach to get in touch with the 
 organisation.
@@ -167,6 +167,9 @@ browsers.
 7. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
+8. [TinyPng:](https://tinypng.com/)
+   - TinyPng was used to compress the size of the images and improve loading time.
+
 ##### back to [content](#table-content)
 
 ## Testing
@@ -179,7 +182,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
 
-<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/css-validator.png"></h2>
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/Lighthouse-report.png"></h2>
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
@@ -242,7 +246,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  1. As a Business Owner, I want to provide a responsive platform for my custors.
 
      - The website has been tested on mobile, tablet and laptop devices, all the tests have been positive and 
-     the site responce well on all devices.
+     the site response well on all devices.
 
      - The customer is able to view range of services provided by the business owner: live workout classes, 
      on demand workouts, community platform and product range.
@@ -289,6 +293,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      - Encountered an issue with accessability having poor contrast between background and font colors, using the information from Google Lighthouse was able to fix the issue. 
      [Please check out the article here](https://web.dev/color-contrast/?utm_source=lighthouse&utm_medium=devtools)
 
+     - Large images have effected the site speed and load time. I have used TinyPng to compress the image size and improve 
+     performance.
+
 
 #### Navigation Bar Testing 
 
@@ -302,14 +309,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - On the medium and small screen sizes the logo becomes a hamburger button which opens and closes by pressing on the button. 
   Once the button is pressed and the menu is open all the links become available to use. 
 
-![Mobile Navigation View]()
-![iPad Navigation View]()
+![Mobile Navigation View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/mobile-navigation.png)
+![iPad Navigation View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-homeview.png)
 ![Laptop Navigation View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/about-lg-screenview.png)
 
 #### Social Links 
 
   - All the social links from the team section and footer open in the separate tab 
-     to give user easy acces back to the original site.
+     to give user easy access back to the original site.
 
 #### Video
  
@@ -338,6 +345,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Submit button has been changed to 'Become a member button', nothing happens when the button is pressed,
     as per MS1 crietirea the method in the form element has not been specified. 
 
+![Sign-up Form Large Screen View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/sign-up-missing-field-lg-screenview.png)
+![Sign-up Form Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/form-sm-screenview.png)
+
 #### Services 
 
    - When testing a responsive design for services section on the large screen view
@@ -350,12 +360,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      content overview and not  minimize the size of the content for the user to make it difficult to read and understant. 
 
 ![Mobile Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-sm-screenview.png)
-![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-lg-screenview.png)
+![Laptop Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-lg-screenview.png)
+![Ipad Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-services.png)
 
 #### Team 
     
   - Using the Bootstrap grid system the layout on the large screen size is shown 
-    3 colums side by side.
+    3 columns side by side.
 
   - When the content is viewed on the medium screen size there is only 2 columns side by side and the 
     third column wraps underneath in the middle of the page.
@@ -365,14 +376,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-sm-screenview.png)
 ![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-lg-screenview.png)
+![Ipad screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-team.png)
 
 #### Timetable
 
   - Has been created to be responsive on all devices and show full content on all screen sizes. 
 
-  - The content is centered on all screen sizes. 
-! [Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/time.png)
-! [Laptop screen view] (https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/timetable-lg-screenview.png)
+  - The content is centred on all screen sizes. 
+![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/time.png)
+![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/timetable-lg-screenview.png)
+![Ipad screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-timetable.png)
 
 #### Sign-up 
  
@@ -388,7 +401,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     social links on the right hand side. I have also designed a logo image in the middle to promote the brand. 
 
   - The appearance of logo image did not look good on the medium screen view, therefore the items had to be 
-    re-aranged and the logo is hidden.
+    re-arranged and the logo is hidden.
 
   - Mobile screen view the logo is hidden as well, the contact information appears in the middle of the screen and 
     the social links at the bottom.
@@ -397,6 +410,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/footer-sm-screenview.png)
 ![Large Screen View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/footer-lg-screenview.png)
+![Ipad Screen View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-footer.png)
 
 ##### Max-screen width (1020px)
     /*-----------Footer------*/
@@ -737,7 +751,7 @@ Bootstrap css library has been used to make site more appealing and responsive.
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Color pallet for the site was found [here](https://www.fabmood.com/inspiration/blue-teal-yellow-glow-color-palette-autumn-color-inspiration/)
 
 ### Media
 
@@ -762,7 +776,7 @@ Bootstrap css library has been used to make site more appealing and responsive.
 -    Video for complimentary workout came from [YouTube by Caroline Girva](https://www.youtube.com/watch?v=5i8y-_cbwgw)
 
 -
-### Acknowledgements
+### Acknowledgment
 
 -   My Mentor Medale Oluwafemi for continuous support, helpful feedback and pointing me in the right direction to help me learn.
 
@@ -771,7 +785,7 @@ Bootstrap css library has been used to make site more appealing and responsive.
 -   Slack Community for helping get through the obsticles found along the way.
 
 
-
+##### back to [content](#table-content)
 
 
 
