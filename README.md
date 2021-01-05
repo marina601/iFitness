@@ -182,7 +182,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
 
-<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/Lighthouse-report.png"></h2>
+<h2 align="center"><img src="https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/css-validator.png"></h2>
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -277,8 +277,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneX, iPad.
 
-![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/home-sm-screenview.jpg)
-![Large Screenview](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/lg-view-homescreen.png)
+
+ ![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/home-sm-screenview.jpg)
+ ![Large Screenview](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/lg-view-homescreen.png)
 
 -  Using [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse)to improve site usebality and overall performance.
 
@@ -312,6 +313,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![Mobile Navigation View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/mobile-navigation.png)
 ![iPad Navigation View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-homeview.png)
 ![Laptop Navigation View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/about-lg-screenview.png)
+
 
 #### Social Links 
 
@@ -359,9 +361,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - For mobile design I have desided to use single colomn for each service to give the user good 
      content overview and not  minimize the size of the content for the user to make it difficult to read and understant. 
 
-![Mobile Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-sm-screenview.png)
+
 ![Laptop Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-lg-screenview.png)
 ![Ipad Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-services.png)
+![Mobile Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-sm-screenview.png)
 
 #### Team 
     
@@ -374,18 +377,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - For mobile design I have desided to use single colomn for each team to give the user good 
      content overview and not  minimize the size of the content for the user to make it difficult to read and understant. 
 
-![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-sm-screenview.png)
+
 ![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-lg-screenview.png)
 ![Ipad screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-team.png)
+![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-sm-screenview.png)
 
 #### Timetable
 
   - Has been created to be responsive on all devices and show full content on all screen sizes. 
 
   - The content is centred on all screen sizes. 
-![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/time.png)
+
 ![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/timetable-lg-screenview.png)
 ![Ipad screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-timetable.png)
+![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/time.png)
 
 #### Sign-up 
  
@@ -408,9 +413,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   - Footer elements were custom written for each screen view size using media query. 
 
-![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/footer-sm-screenview.png)
+
 ![Large Screen View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/footer-lg-screenview.png)
 ![Ipad Screen View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/ipad-footer.png)
+![Mobile View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/footer-sm-screenview.png)
+
 
 ##### Max-screen width (1020px)
     /*-----------Footer------*/
