@@ -19,7 +19,7 @@ You can view the site [here](https://marina601.github.io/iFitness/)
 
 3 [**Technology Used**](#technology-used)
    - [**Languages Used**](#language-used)
-   - [**Frameworks, Libraries and Programs Used**](#frameworks,-libraries-and-programs-used)
+   - [**Frameworks Libraries and Programs Used**](#frameworks-libraries-and-programs-used)
 
 4 [**Testing**](#testing)
    - [**Testing User Stories**](#testing-user-stories)
@@ -31,7 +31,7 @@ You can view the site [here](https://marina601.github.io/iFitness/)
       - [**Services**](#services)
       - [**Team**](#team)
       - [**Footer**](#footer)
-   - [**Bugs**](#Bugs)
+   - [**Bugs**](#bugs)
 
 5 [**Deployment**](#deployment)
   - [**GitHub Pages**](#github-pages)
@@ -66,7 +66,7 @@ You can view the site [here](https://marina601.github.io/iFitness/)
         2. As a Business Owner, I want to gain more memberships.
         3. As a Business Owner, I want the users of the site to be able to contact me.
 
-
+##### back to [content](#table-content)
 
 - ### Design
    
@@ -86,6 +86,8 @@ You can view the site [here](https://marina601.github.io/iFitness/)
     - ### Video
          - The video has been sorced from [YouTube](https://www.youtube.com/)
 
+##### back to [content](#table-content)
+
 - ## Wireframes 
 
    - Desktop/Laptop view Wireframe - [View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/wireframes/Landing%20Page%20Online%20Gym%20-%20wireframe.png)
@@ -93,6 +95,8 @@ You can view the site [here](https://marina601.github.io/iFitness/)
    - Tablet view Wireframe - [View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/wireframes/Ipad%20design-wireframe.png)
 
    - Mobile view Wireframe - [View](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/wireframes/Mobile%20Design-wireframe.png)
+
+##### back to [content](#table-content)
 
 ## Features 
 
@@ -126,7 +130,7 @@ to complete.
 
 - E-commerce page could be introduced where the customers are able to purchase relevant products and browese through them.
 
-
+##### back to [content](#table-content)
 
 ## Technology Used
 
@@ -134,8 +138,9 @@ to complete.
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript) from Bootstrap library for navigation bar
 
-### Frameworks, Libraries and Programs Used 
+### Frameworks Libraries and Programs Used 
 
 1. [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
  - mainly for responsive grid system and used components to assist styling of the elements.
@@ -161,6 +166,8 @@ browsers.
 
 7. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
+
+##### back to [content](#table-content)
 
 ## Testing
 
@@ -232,7 +239,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
  ### Business Owner 
      
-    1. As a Business Owner, I want to provide a responsive platform for my custors.
+ 1. As a Business Owner, I want to provide a responsive platform for my custors.
 
      - The website has been tested on mobile, tablet and laptop devices, all the tests have been positive and 
      the site responce well on all devices.
@@ -243,20 +250,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
      - The customer is able to access the complimentary and responsive video footage on all devices. 
 
-    2. As a Business Owner, I want to gain more memberships.
+  2. As a Business Owner, I want to gain more memberships.
     
      - A sign up button is part of the navigation and leads the user directly to a form which 
      is asking a user for their first name, last name, email address and password. All the fields have a required attribute added to them. 
 
      - Above a sign up form a message is displayed with a complimentary trial offer.
 
-    3. As a Business Owner, I want the users of the site to be able to contact me.
+  3. As a Business Owner, I want the users of the site to be able to contact me.
 
      - In the footer element at the bottom of the page, a telephone number and email address has been provided.
 
      - The user can contact a business owner using either one of above methods.
 
-
+##### back to [content](#table-content)
     
 ### Further Testing
 
@@ -344,6 +351,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Mobile Screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-sm-screenview.png)
 ![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/services-lg-screenview.png)
+
 #### Team 
     
   - Using the Bootstrap grid system the layout on the large screen size is shown 
@@ -357,6 +365,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-sm-screenview.png)
 ![Laptop screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/team-lg-screenview.png)
+
 #### Timetable
 
   - Has been created to be responsive on all devices and show full content on all screen sizes. 
@@ -364,6 +373,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - The content is centered on all screen sizes. 
 ! [Mobile screen view](https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/time.png)
 ! [Laptop screen view] (https://browser-f6770e18-f577-4894-9038-f370ff3f65cd.ws-eu03.gitpod.io/workspace/iFitness/assets/testing/timetable-lg-screenview.png)
+
 #### Sign-up 
  
   - The form element is responsive on all screen sizes and has been designed to be in the 
@@ -571,6 +581,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     }
 
+##### back to [content](#table-content)
+
 ### Bugs
 
 #### Timetable
@@ -650,6 +662,8 @@ which let me have a full screen view width of my website.
     padding-right: 0px;
 }
 
+##### back to [content](#table-content)
+
 ## Deployment
 
 ### GitHub Pages
@@ -697,6 +711,8 @@ $ git clone https://github.com/marina601/iFitness.git
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+##### back to [content](#table-content)
 
 ## Credits
 
